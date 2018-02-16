@@ -1,0 +1,30 @@
+User can log in using SSO.
+
+User can view upcoming events specific to their role/cohort/campus.
+User can see popular restaurants/venues/events in area depending on campus.
+
+
+Mentor can check LMS status of current students.
+Student can check own LMS status.
+
+User can access the q.
+Student can post a question to the q.
+Mentor can offer help on a question in the q.
+
+Student can see all untaken surveys.
+Student can take surveys.
+Admin can post surveys.
+
+User can view a StackOverflow-esque forum.
+User can post question on StackOverflow-esque forum.
+User can comment on posts on StackOverflow-esque forum.
+
+User can view skills++ and environment++ resource pages.
+User can add resources into the skills++ and environment++ resource pages.
+Admin/Mentor can remove resources into the resource pages.
+
+
+workshops on calendar
+access pre-course (LMS)
+notes tool
+job prep

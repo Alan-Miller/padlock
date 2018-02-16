@@ -1,0 +1,66 @@
+.App {
+    display: grid;
+    // grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    height: 100vh;
+    width: 100vw;
+    background-color: $gray;
+    transition: .5s;
+    .space {
+        h1 {
+            font: {
+                size: 2.2rem;
+                weight: 300;
+            }
+            margin: 20px 0 0 -10px;
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: rotate(90deg);
+            transform-origin: 30px 30px;
+            white-space: nowrap;
+        }
+        position: relative;
+        height: 100%;
+        border: none;
+        cursor: pointer;
+        color: $white;
+        font: {
+            family: 'Raleway', sans-serif;
+            size: 2.1rem;
+            weight: 200;
+        }
+        transition: all .5s;
+        box-shadow: 0 0 0 7px RGBA(245, 245, 245, 0);
+        
+        &.App_classroom {
+            grid-column: 2 / span 1;
+            background-color: $darkbrick;
+        }
+        &.App_extra_resources {
+            grid-column: 3 / span 1;
+            background-color: $brick;
+        }
+        &.App_provo {
+            grid-column: 4 / span 1;
+            background-color: $DMblue;
+        }
+        
+    }
+    .App_login .linkBar            { background-color: $gray; }
+    .App_classroom .linkBar        { background-color: $darkbrick; }
+    .App_extra_resources .linkBar  { background-color: $brick; }
+    .App_provo .linkBar            { background-color: $DMblue; }
+
+    .linkBar {
+        width: $gridColumnWidth;
+        height: 100vh;
+        display: inline-block;
+        transition: .5s;
+    }
+    .linkBar:hover {
+        background-color: $white;
+        box-shadow: 0 10px 20px 7px RGBA(30, 30, 30, 1);
+        color: $gray;
+    }
+} // end of .App
